@@ -1,0 +1,102 @@
+[
+    {
+      "name": "Web Design BootCamp",
+      "mentorImg": "http://skilify.theuxuidesigner.com/images/webp/profile-img3.png",
+      "mentorName": "Anna Sthesia",
+      "price": "220",
+      "views": "3500",
+      "videos": "12",
+      "rating": "4.5",
+      "courseImg": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/09/WHAT-IS-WEB-DESIGN.jpg?auto=format&q=60&w=1860&h=1046.25&fit=crop&crop=faces"
+    },
+    {
+      "name": "Web Development BootCamp",
+      "mentorImg": "http://skilify.theuxuidesigner.com/images/webp/profile-img3.png",
+      "mentorName": "Paul Molive",
+      "price": "500",
+      "views": "4900",
+      "videos": "22",
+      "rating": "4.7",
+      "courseImg": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200203200336/13-Things-You-Should-Know-Before-You-Enter-In-Web-Development.png"
+    },
+    {
+      "name": "The Complete JavaScript BootCamp",
+      "mentorImg": "http://skilify.theuxuidesigner.com/images/webp/profile-img5.png",
+      "mentorName": "Pankaj Kumar",
+      "price": "300",
+      "views": "8500",
+      "videos": "20",
+      "rating": "4.6",
+      "courseImg": "https://cdn.mos.cms.futurecdn.net/EzgdmaCQuT84bgDL4fhXZS.jpg"
+    },
+    {
+      "name": "Graphic Design Boot Camp",
+      "mentorImg": "http://skilify.theuxuidesigner.com/images/webp/profile-img1.png",
+      "mentorName": "Monalisa M.",
+      "price": "100",
+      "views": "4900",
+      "videos": "12",
+      "rating": "4.7",
+      "courseImg": "https://i0.wp.com/www.graphic-design-institute.com/wp-content/uploads/2020/02/the-best-applications-to-learn-as-a-graphics-designer.jpg?fit=1200%2C800&ssl=1"
+    },
+    {
+      "name": "Python Programming Boot Camp",
+      "mentorImg": "http://skilify.theuxuidesigner.com/images/webp/profile-img.png",
+      "mentorName": "Nicole Brown",
+      "price": "350",
+      "views": "5500",
+      "videos": "25",
+      "rating": "4.9",
+      "courseImg": "https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg"
+    },
+    {
+      "name": "Shopify Theme Development",
+      "mentorImg": "http://skilify.theuxuidesigner.com/images/webp/profile-img2.png",
+      "mentorName": "Mary Jane",
+      "price": "300",
+      "views": "15500",
+      "videos": "25",
+      "rating": "4.5",
+      "courseImg": "https://static.skillshare.com/uploads/video/thumbnails/025395f2f8b5db5db6c2b8a903d3c99e/original"
+    },
+    {
+      "name": "WordPress Boot Camp",
+      "mentorImg": "http://skilify.theuxuidesigner.com/images/webp/profile-img.png",
+      "mentorName": "James Watson",
+      "price": "420",
+      "views": "15000",
+      "videos": "30",
+      "rating": "5.0",
+      "courseImg": "https://mythemeshop.com/wp-content/uploads/2019/11/what-is-wordpress-detailed-guide.png"
+    },
+    {
+      "name": "Vue JS Boot Camp",
+      "mentorImg": "http://skilify.theuxuidesigner.com/images/webp/profile-img2.png",
+      "mentorName": "David Peckard",
+      "price": "400",
+      "views": "8500",
+      "videos": "18",
+      "rating": "4.5",
+      "courseImg": "https://www.creative-tim.com/blog/content/images/wordpress/2019/09/vue-js-header.jpg"
+    },
+    {
+      "name": "React JS Boot Camp",
+      "mentorImg": "http://skilify.theuxuidesigner.com/images/webp/profile-img.png",
+      "mentorName": "Steve Jobs",
+      "price": "220",
+      "views": "3500",
+      "videos": "12",
+      "rating": "4.5",
+      "courseImg": "https://i.ytimg.com/vi/w7ejDZ8SWv8/maxresdefault.jpg"
+    },
+    {
+      "name": "PHP Boot Camp",
+      "mentorImg": "http://skilify.theuxuidesigner.com/images/webp/profile-img3.webp",
+      "mentorName": "Anna Sthesia",
+      "price": "220",
+      "views": "3500",
+      "videos": "12",
+      "rating": "4.5",
+      "courseImg": "https://i.ytimg.com/vi/OK_JCtrrv-c/maxresdefault.jpg"
+    }
+  ]
