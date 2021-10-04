@@ -1,0 +1,26 @@
+.hero-section {
+    padding : 100px 0;
+    background: #ddeee6;
+    z-index: -1111;
+}
+.hero-section::after {
+    content: "";
+    position: absolute;
+    right: 391px;
+    top: 201px;
+    z-index: 0;
+    border: 3px solid #198754;
+    border-radius: 25px;
+    height: 56%;
+    width: 22%;
+}
+.hero-section h2 {
+    font-weight: bold;
+    font-size: 42px;
+    max-width: 500px;
+}
+.hero-section p {
+    font-size: 18px;
+    max-width: 500px;
+    margin-top: 20px;
+}

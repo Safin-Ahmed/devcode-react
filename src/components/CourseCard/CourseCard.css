@@ -1,0 +1,16 @@
+.card {
+    height: 100% !important;
+    transition: all 0.2s ease-in;
+}
+.card:hover {
+    transform: translateY(-15px);
+}
+.card-body {
+    padding: 15px 15px !important;
+}
+.course-info {
+    margin-top: 10px !important;
+}
+.right {
+    text-align: right !important;
+}

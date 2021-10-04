@@ -1,0 +1,10 @@
+.view-btn:hover {
+    background-color: #13653f !important;
+    box-shadow: 0 7px 15px -2px #13653f !important;
+}
+.view-btn-col {
+    text-align: right !important;
+}
+.course-grid {
+    grid-auto-rows: 1fr !important;
+}
