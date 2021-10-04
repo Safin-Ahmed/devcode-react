@@ -8,12 +8,12 @@ const Footer = () => {
        <footer class="bg-success text-white">
            <Container>
                <Row>
-                   <Col>
+                   <Col md={3}>
                         <div className = "footer-menus">
                             <h5>Pages</h5>
                             <Nav className="m-auto d-block">
-                                <NavLink style = {{textDecoration: 'none'}} to = "/home">
-                                    <Nav.Link href="/home">Home</Nav.Link>
+                                <NavLink style = {{textDecoration: 'none'}} to = "/">
+                                    <Nav.Link href="/">Home</Nav.Link>
                                 </NavLink>
                                 <NavLink style = {{textDecoration: 'none'}} to = "/courses">
                                     <Nav.Link href="/courses">Courses</Nav.Link>
@@ -29,12 +29,12 @@ const Footer = () => {
                         </div>
                    </Col>
                    
-                   <Col>
+                   <Col md={3}>
                         <div className = "footer-menus">
                             <h5>Courses</h5>
                             <Nav className="m-auto d-block">
-                                <NavLink style = {{textDecoration: 'none'}} to = "/home">
-                                    <Nav.Link href="/home">Home</Nav.Link>
+                                <NavLink style = {{textDecoration: 'none'}} to = "/">
+                                    <Nav.Link href="/">Home</Nav.Link>
                                 </NavLink>
                                 <NavLink style = {{textDecoration: 'none'}} to = "/courses">
                                     <Nav.Link href="/courses">Courses</Nav.Link>
@@ -49,12 +49,12 @@ const Footer = () => {
     </Nav>
                         </div>
                    </Col>
-                   <Col>
+                   <Col md={3}>
                         <div className = "footer-menus">
                             <h5>Features</h5>
                             <Nav className="m-auto d-block">
-                                <NavLink style = {{textDecoration: 'none'}} to = "/home">
-                                    <Nav.Link href="/home">Home</Nav.Link>
+                                <NavLink style = {{textDecoration: 'none'}} to = "/">
+                                    <Nav.Link href="/">Home</Nav.Link>
                                 </NavLink>
                                 <NavLink style = {{textDecoration: 'none'}} to = "/courses">
                                     <Nav.Link href="/courses">Courses</Nav.Link>
@@ -69,12 +69,12 @@ const Footer = () => {
     </Nav>
                         </div>
                    </Col>
-                   <Col>
+                   <Col md={3}>
                         <div className = "footer-menus">
                             <h5>Policy</h5>
                             <Nav className="m-auto d-block">
-                                <NavLink style = {{textDecoration: 'none'}} to = "/home">
-                                    <Nav.Link href="/home">Home</Nav.Link>
+                                <NavLink style = {{textDecoration: 'none'}} to = "/">
+                                    <Nav.Link href="/">Home</Nav.Link>
                                 </NavLink>
                                 <NavLink style = {{textDecoration: 'none'}} to = "/courses">
                                     <Nav.Link href="/courses">Courses</Nav.Link>

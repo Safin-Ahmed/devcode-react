@@ -10,8 +10,8 @@ const Header = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="m-auto">
-      <NavLink style = {{textDecoration: 'none'}} to = "/home">
-        <Nav.Link href="/home">Home</Nav.Link>
+      <NavLink style = {{textDecoration: 'none'}} to = "/">
+        <Nav.Link href="/">Home</Nav.Link>
       </NavLink>
       <NavLink style = {{textDecoration: 'none'}} to = "/courses">
         <Nav.Link href="/courses">Courses</Nav.Link>
@@ -19,7 +19,7 @@ const Header = () => {
       <NavLink style = {{textDecoration: 'none'}} to = "/features">
         <Nav.Link href="/features">Features</Nav.Link>
       </NavLink>
-      <NavLink style = {{textDecoration: 'none'}} to = "/about-us">
+      <NavLink style = {{textDecoration: 'none'}} to = "/about">
         <Nav.Link href="/about">About Us</Nav.Link>
       </NavLink>
 

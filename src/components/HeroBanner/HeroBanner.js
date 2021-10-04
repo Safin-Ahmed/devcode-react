@@ -13,7 +13,7 @@ const HeroBanner = () => {
                         <h2>Learn more and make success the result of perfection.</h2>
                         <p>Pick from over 100,000 online video courses with new additions published every month.</p>
                     </Col>
-                    <Col style= {{zIndex: '99999'}} md={6}>
+                    <Col style= {{zIndex: '99999', textAlign: 'center'}} md={6}>
                         <img style = {{width: '60%'}} src="http://skilify.theuxuidesigner.com/images/webp/girl-img-study.png" alt="" />
                     </Col>
                 </Row>

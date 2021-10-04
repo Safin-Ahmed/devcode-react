@@ -14,3 +14,7 @@
 .right {
     text-align: right !important;
 }
+span.price {
+    color: #198754;
+    font-weight: 700;
+}

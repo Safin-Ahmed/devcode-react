@@ -45,7 +45,7 @@ const CourseCard = (props) => {
             </Col>
             
             <Col className = "right" md = {5}>
-                    <span className = "price">{price}</span> 
+                    <span className = "price">${price}</span> 
             </Col>
 
             </Row>
