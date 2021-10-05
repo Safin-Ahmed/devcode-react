@@ -5,27 +5,27 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-       <footer class="bg-success text-white">
+       <footer className="bg-success text-white">
            <Container>
                <Row>
                    <Col md={3}>
                         <div className = "footer-menus">
                             <h5>Pages</h5>
                             <Nav className="m-auto d-block">
-                                <NavLink style = {{textDecoration: 'none'}} to = "/">
-                                    <Nav.Link href="/">Home</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/">
+                                    Home
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/courses">
-                                    <Nav.Link href="/courses">Courses</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/courses">
+                                    Courses
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/features">
-                                    <Nav.Link href="/features">Features</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/features">
+                                   Features
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/about-us">
-                                    <Nav.Link href="/about-us">About Us</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/about-us">
+                                   About Us
                                 </NavLink>
 
-    </Nav>
+                            </Nav>
                         </div>
                    </Col>
                    
@@ -33,66 +33,66 @@ const Footer = () => {
                         <div className = "footer-menus">
                             <h5>Courses</h5>
                             <Nav className="m-auto d-block">
-                                <NavLink style = {{textDecoration: 'none'}} to = "/">
-                                    <Nav.Link href="/">Home</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/">
+                                    Home
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/courses">
-                                    <Nav.Link href="/courses">Courses</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/courses">
+                                    Courses
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/features">
-                                    <Nav.Link href="/features">Features</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/features">
+                                   Features
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/about-us">
-                                    <Nav.Link href="/about-us">About Us</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/about-us">
+                                   About Us
                                 </NavLink>
 
-    </Nav>
+                            </Nav>
                         </div>
                    </Col>
                    <Col md={3}>
                         <div className = "footer-menus">
                             <h5>Features</h5>
                             <Nav className="m-auto d-block">
-                                <NavLink style = {{textDecoration: 'none'}} to = "/">
-                                    <Nav.Link href="/">Home</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/">
+                                    Home
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/courses">
-                                    <Nav.Link href="/courses">Courses</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/courses">
+                                    Courses
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/features">
-                                    <Nav.Link href="/features">Features</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/features">
+                                   Features
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/about-us">
-                                    <Nav.Link href="/about-us">About Us</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/about-us">
+                                   About Us
                                 </NavLink>
 
-    </Nav>
+                            </Nav>
                         </div>
                    </Col>
                    <Col md={3}>
                         <div className = "footer-menus">
                             <h5>Policy</h5>
                             <Nav className="m-auto d-block">
-                                <NavLink style = {{textDecoration: 'none'}} to = "/">
-                                    <Nav.Link href="/">Home</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/">
+                                    Home
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/courses">
-                                    <Nav.Link href="/courses">Courses</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/courses">
+                                    Courses
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/features">
-                                    <Nav.Link href="/features">Features</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/features">
+                                   Features
                                 </NavLink>
-                                <NavLink style = {{textDecoration: 'none'}} to = "/about-us">
-                                    <Nav.Link href="/about-us">About Us</Nav.Link>
+                                <NavLink className = "nav-link" style = {{textDecoration: 'none'}} to = "/about-us">
+                                   About Us
                                 </NavLink>
 
-    </Nav>
+                            </Nav>
                         </div>
                    </Col>
 
                </Row>
               <div className = "copyright-text text-center">
-              <span class="copy-right-txt">© 2021 DevCode Limited. All rights reserved</span>
+              <span className="copy-right-txt">© 2021 DevCode Limited. All rights reserved</span>
               </div>
            </Container>
        </footer>

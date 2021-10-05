@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Form, FormControl, Nav, Navbar, NavDropdown, Button } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -10,18 +10,18 @@ const Header = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="m-auto">
-      <NavLink style = {{textDecoration: 'none'}} to = "/">
-        <Nav.Link href="/">Home</Nav.Link>
-      </NavLink>
-      <NavLink style = {{textDecoration: 'none'}} to = "/courses">
-        <Nav.Link href="/courses">Courses</Nav.Link>
-      </NavLink>
-      <NavLink style = {{textDecoration: 'none'}} to = "/features">
-        <Nav.Link href="/features">Features</Nav.Link>
-      </NavLink>
-      <NavLink style = {{textDecoration: 'none'}} to = "/about">
-        <Nav.Link href="/about">About Us</Nav.Link>
-      </NavLink>
+      <Link className = "nav-link" style = {{textDecoration: 'none'}} to = "/">
+        Home
+      </Link>
+      <Link className = "nav-link" style = {{textDecoration: 'none'}} to = "/courses">
+        Courses
+      </Link>
+      <Link className = "nav-link" style = {{textDecoration: 'none'}} to = "/features">
+        Features
+      </Link>
+      <Link className = "nav-link" style = {{textDecoration: 'none'}} to = "/about">
+       About Us
+      </Link>
 
     </Nav>
     <Form className="d-flex">

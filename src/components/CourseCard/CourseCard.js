@@ -3,7 +3,7 @@ import { Card, Col, Row } from 'react-bootstrap';
 import './CourseCard.css';
 
 const CourseCard = (props) => {
-    const {name, mentorImg, courseImg, key, mentorName, price, rating, videos, views} = props.course;
+    const {name, mentorImg, courseImg, mentorName, price, rating, videos, views} = props.course;
     return (
      <Col>
       <Card>

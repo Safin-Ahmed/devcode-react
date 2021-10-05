@@ -24,7 +24,9 @@ const HomeCourses = () => {
                 </Row>
                 <Row className = "course-grid" xs={1} md={4} className="g-4">
                 {
-                    slicedCourses.map (course => <CourseCard course = {course}></CourseCard>)
+                    slicedCourses.map (course => <CourseCard 
+                        key = {course.key}
+                        course = {course}></CourseCard>)
                 }
                 </Row>
             </Container>

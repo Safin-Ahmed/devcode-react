@@ -13,10 +13,10 @@ function App() {
     <Router>
       <Header></Header>
       <Switch>
-        <Route exact path = "/"><Home></Home></Route>
         <Route path = "/courses"><Courses></Courses></Route>
         <Route path = "/about"><About></About></Route>
         <Route path = "/features"><Features></Features></Route>
+        <Route path = "/"><Home></Home></Route>
         <Route path = "*"><NotFound></NotFound></Route>
       </Switch>
       <Footer></Footer>
